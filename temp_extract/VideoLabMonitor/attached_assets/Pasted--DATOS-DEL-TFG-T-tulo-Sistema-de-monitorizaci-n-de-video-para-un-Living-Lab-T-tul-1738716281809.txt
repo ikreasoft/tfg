@@ -1,0 +1,42 @@
+### **DATOS DEL TFG**
+
+- **Título:** Sistema de monitorización de video para un Living Lab
+- **Título en inglés:** Video Monitoring System for a Living Lab
+- **Idioma:** Español (Castellano)
+
+---
+### **RESUMEN**
+
+El presente proyecto tiene como objetivo el desarrollo de un sistema de monitorización de video para entornos de **Living Lab**, proporcionando una solución eficiente para la captura, almacenamiento y análisis de datos audiovisuales y biométricos.  
+Actualmente, la monitorización en entornos de experimentación enfrenta desafíos relacionados con la gestión eficiente de grandes volúmenes de datos, la interoperabilidad con otros sistemas y la garantía de privacidad conforme a la normativa vigente.  
+El sistema propuesto integrará cámaras de alta definición, herramientas de análisis en tiempo real y un sistema de almacenamiento seguro basado en tecnologías de cifrado y control de acceso.  
+Su implementación permitirá optimizar los procesos de recolección y análisis de datos, facilitando la toma de decisiones en entornos de investigación y desarrollo.  
+Asimismo, se garantizará la compatibilidad con plataformas externas mediante interfaces de programación de aplicaciones (APIs), lo que permitirá su integración en ecosistemas tecnológicos diversos.  
+Este proyecto tiene un alto valor de innovación al proporcionar una herramienta robusta y flexible que mejorará la calidad de los procesos experimentales en **Living Labs**, cumpliendo con las normativas de privacidad y seguridad de la información.
+
+---
+### **OBJETIVO GENERAL**
+
+El objetivo general de esta propuesta consiste en desarrollar un sistema de monitorización de video para entornos de **Living Lab**, que permita la captura, almacenamiento y análisis de datos audiovisuales y biométricos, garantizando altos estándares de seguridad, usabilidad e interoperabilidad con otros sistemas.
+
+---
+### **OBJETIVOS PARCIALES**
+
+- **OP1:** Desarrollar una plataforma escalable que permita la gestión eficiente de múltiples fuentes de video y datos sensoriales, asegurando su almacenamiento estructurado para futuras consultas.
+- **OP2:** Implementar herramientas de análisis en tiempo real que permitan la detección y clasificación automática de eventos de interés mediante técnicas de procesamiento de video offline.
+- **OP3:** Diseñar un sistema de almacenamiento seguro basado en cifrado de datos y control de acceso para garantizar la confidencialidad e integridad de la información.
+- **OP4:** Desarrollar APIs de integración que permitan la interoperabilidad con sistemas de terceros, facilitando la compatibilidad con plataformas de análisis externas.
+- **OP5:** Garantizar el cumplimiento de normativas como el RGPD mediante la implementación de mecanismos de consentimiento informado y auditoría de accesos.
+
+---
+### **PROPIEDAD INTELECTUAL**
+
+- **Sí/No:** No
+
+---
+### **DATOS DEL TUTOR/ES**
+
+- **Tutor académico:** Iván Gonzales Díaz
+- **Departamento del tutor académico:** Departamento de Tecnologías y Sistemas de Información
+- **Otros tutores:** Yulith Vanessa Altamirano Flores
+

@@ -1,0 +1,74 @@
+
+### **Plan de Trabajo Actualizado: 01.02.2025 - 01.03.2025**
+
+#### **Objetivo**:
+
+Desarrollar un **sistema de grabación y monitorización en tiempo real** utilizando cámaras IP y un **dashboard interactivo** en React. El sistema debe permitir la visualización en tiempo real de las cámaras, almacenamiento local de grabaciones y un sistema de gestión mediante una **API REST**.
+
+### **Fase 1: Configuración Inicial y Backend
+¡El feedback de Iván es muy valioso y parece que el ajuste propuesto tiene mucho sentido para enfocarnos en el **MVP** y hacerlo lo más estable posible en las primeras fases! La idea de **priorizar un único stream funcional** y usar **Docker** inicialmente para simplificar la infraestructura es un enfoque pragmático, especialmente en un contexto con tiempos ajustados.
+
+Aquí te dejo un resumen de los ajustes y lo que podemos hacer a partir de ahora:
+#### **Semana 1: Configuración Inicial y Backend Básico (01/02 - 07/02)**
+
+1. **Configuración de Docker** (Día 1-2):
+    
+    - Instalar Docker en las máquinas de trabajo (probablemente en la **OrangePi** o en el entorno local).
+    - Asegurarnos de que Docker funcione correctamente en el sistema, realizando una prueba de concepto con un solo stream de video.
+2. **Implementación Básica de Flask + Almacenamiento** (Día 3-4):
+    
+    - Crear el backend con **Flask** para manejar la lógica básica de la API.
+    - Implementar la funcionalidad de almacenamiento local de grabaciones en disco, sin complicar la infraestructura de almacenamiento en esta fase.
+3. **API REST Básica + Pruebas de Integración** (Día 5-7):
+    
+    - Crear los endpoints básicos de la API REST (por ejemplo, para controlar la grabación y consultar el estado de las cámaras).
+    - Realizar pruebas de integración para verificar que el backend y el almacenamiento de grabaciones funcionen de manera adecuada.
+
+---
+
+#### **Semana 2: Desarrollo del Dashboard y Expansión de Funcionalidades (08/02 - 14/02)**
+
+1. **Dashboard React Básico** (Día 1-3):
+    - Desarrollar un **dashboard básico en React**, mostrando una interfaz sencilla para controlar las cámaras (iniciar y detener grabaciones).
+2. **Integración con API** (Día 4-5):
+    - Conectar el frontend con la API REST para enviar y recibir datos.
+    - Validar que las interacciones del dashboard afecten el backend correctamente (por ejemplo, iniciar una grabación desde el dashboard).
+3. **Sistema de Grabación Multi-Cámara** (Día 6-7):
+    - Extender el sistema de grabación para permitir grabaciones de múltiples cámaras.
+    - Asegurarse de que las grabaciones se gestionen de forma independiente para cada cámara y se almacenen correctamente.
+
+---
+
+#### **Semana 3: Optimización, CI/CD y Pruebas de Carga (15/02 - 21/02)**
+
+1. **CI/CD Básico** (Día 1-2):
+    
+    - Implementar una pipeline CI/CD básica en **GitLab**, que permita hacer **build, test y deploy** de los contenedores Docker.
+2. **Optimización de Performance** (Día 3-4):
+    
+    - Realizar ajustes en el sistema para mejorar la eficiencia del streaming y la grabación de video.
+    - Optimizar el uso de recursos, especialmente si se trabaja con múltiples cámaras.
+3. **Pruebas de Carga y Correcciones** (Día 5-7):
+    
+    - Realizar pruebas de carga para asegurarnos de que el sistema funcione bien bajo condiciones de estrés (por ejemplo, múltiples grabaciones simultáneas).
+    - Corregir cualquier error o problema de rendimiento detectado durante las pruebas.
+
+---
+
+#### **Semana 4: Documentación y Preparación de Entrega (22/02 - 01/03)**
+
+1. **Documentación Técnica** (Día 1-3):
+    - Elaborar documentación técnica que explique cómo funciona el sistema, cómo se desplegará, y cómo se pueden realizar pruebas y mantenimientos.
+2. **Pruebas Finales** (Día 4-5):
+    - Realizar pruebas finales para asegurarse de que todos los componentes (frontend, backend, grabación) estén funcionando correctamente.
+3. **Preparación de Entrega** (Día 6-7):
+    - Preparar una presentación o demo final para mostrar los resultados y los entregables del proyecto.
+    - Redactar un informe final detallado con los logros del proyecto, así como los desafíos y soluciones adoptadas.
+
+---
+
+### **Recomendaciones Finales**:
+
+- **MVP Acotado**: Comenzar con un único stream de cámara y asegurarse de que el almacenamiento y la visualización básica estén funcionando correctamente antes de agregar más cámaras o características.
+- **Pruebas de estabilidad y monitoreo**: Incluir tests unitarios desde el inicio y añadir herramientas de monitoreo básico (como Prometheus) para verificar el estado del sistema.
+- **CI/CD desde temprano**: Esto permitirá que el flujo de trabajo sea más eficiente y que puedas probar nuevas funcionalidades de forma continua.
