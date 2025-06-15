@@ -1,6 +1,6 @@
 # IP Camera and MQTT/Zigbee2MQTT Monitoring System
 
-Advanced clinical-grade monitoring system for IP cameras and MQTT/Zigbee2MQTT sensors with comprehensive session management, real-time visualization, and data exports. Designed for research laboratory environments requiring precise data capture and synchronization.
+Advanced monitoring system for IP cameras and MQTT/Zigbee2MQTT sensors with comprehensive session management, real-time visualization, and data exports. Designed for research laboratory environments requiring precise data capture and synchronization.
 
 ## System Requirements
 
